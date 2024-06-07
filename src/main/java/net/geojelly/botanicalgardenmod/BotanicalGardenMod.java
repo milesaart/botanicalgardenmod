@@ -27,6 +27,7 @@ public class BotanicalGardenMod {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
+        //test
 
         MinecraftForge.EVENT_BUS.register(this);
 
